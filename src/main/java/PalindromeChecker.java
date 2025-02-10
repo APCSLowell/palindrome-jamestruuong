@@ -49,8 +49,8 @@ public boolean palindrome(String word)
     if(Character.isLetter(a.charAt(i)))
     b += a.charAt(i);
   }
-   c = c.toLowerCase();
-  if(c.equals(reverse(c)))
+   b = b.toLowerCase();
+  if(b.equals(reverse(b)))
     return true;
   return false;
 }
